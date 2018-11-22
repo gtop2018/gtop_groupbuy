@@ -1,0 +1,61 @@
+.systemMessage{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+}
+.messageTime{
+	font-size: 0.22rem;
+	color: #999;
+	height: 0.72rem;
+	line-height: 0.72rem;
+	width: 100%;
+	text-align: center;
+}
+.messageCenter{
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.12);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 0.2rem;
+}
+.mesTitle{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 1;
+}
+.messageDetails{
+	font-size: 0.28rem;
+	color: #999;
+	line-height: 0.42rem;
+}
+.tradeLogistics .messageDetails{
+	display: flex;
+	margin-top: 0.14rem;
+}
+.couponTemplate .messageDetails{
+	display: flex;
+	margin-top: 0.14rem;
+}
+.mesImg{
+	width: 1.0rem;
+	height: 1.0rem;
+	margin-right: 0.2rem;
+}
+.mesDetails{
+	max-width:5.5rem;
+	font-size: 0.28rem;
+	color: #999;
+	line-height: 0.42rem;
+}
+.couponTemplate .mesDetails{
+	max-width: 6.0rem;
+}
+.couponImg{
+	width: 0.6rem;
+	height: 0.4rem;
+	margin-right: 0.2rem;
+}

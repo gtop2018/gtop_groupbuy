@@ -1,0 +1,53 @@
+.package {
+    width: 100%;
+    background: #fff;
+}
+.packagedetails {
+    color: #F2922F ;
+    font-size: 0.24rem;
+    margin-left: 2.45rem;
+}
+.packagedetails img {
+    height: 0.152rem;
+    padding-left: 0.1rem;
+}
+.packageitemlist{
+    background-color: #fff;
+    margin: 0 .3rem;
+    border-bottom: 1px solid #ebebeb;
+    background: #f8f8f8;
+    height: 1.2rem;
+}
+.packageitemlist:first-child{
+    border-radius: 0.04rem 0.04rem 0 0;
+}
+.packageitemlist:last-child{
+    border-bottom: none;
+    border-radius:0 0 0.04rem 0.04rem;
+}
+.shopcaritem2.packageitemlist .goodCount {
+    bottom: auto;
+}
+.packageitemlist .goodImg{
+    width: 0.94rem;
+    height: 0.94rem;
+}
+.packageitemlist .goodInforcenter{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    flex: 1;
+    display: flex;
+    padding-right: 0.2rem;
+}
+.goodInforcenter .goodName{  
+    flex: 1;
+}
+.listmain_boay{
+    padding-top: 0.3rem;
+}
+.payment_Package .packagedetails{
+    margin-left: 2.10rem;
+}
+.packageImg{
+    margin-left: 0.2rem;
+}

@@ -1,0 +1,97 @@
+.personal .headImg{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0.4rem auto 0.6rem;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.personal .headImg img{
+    width: 100%;
+    height: 100%;
+}
+.personal .headImg .imgInput{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    border-radius: 100%;
+}
+.personal .headImg .imgInput::before{
+    content:'';
+    width: 0.4rem;
+    height: 0.02rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.2rem;
+    margin-top: -0.01rem;
+}
+.personal .headImg .imgInput::after{
+    content:'';
+    width: 0.02rem;
+    height: 0.4rem;
+    background: #fff;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.01rem;
+    margin-top: -0.2rem;
+}
+.personal .headImg .imgInput input{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.personal .info{
+    padding-left:0.3rem 
+}
+.personal .userName{
+    height: 0.4rem;
+    padding:0.4rem 0;
+    padding-left: 0.5rem;
+    border-bottom:1px solid #DDDDDD;
+    background: url(../../images/personal.png) no-repeat left center;
+    background-size: 0.32rem 0.40rem;
+}
+.personal .userName input{
+    display: block;
+    height: 0.4rem;
+    border: 0;
+    outline: none;
+    font-family: PingFangSC-Regular;
+    font-size: 0.28rem;
+    color: #333333;
+    line-height: 0.4rem
+}
+.personal .switch{
+    height: 0.4rem;
+    padding:0.35rem 0.3rem 0.25rem 0;
+    border-bottom:1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+}
+.personal .switch span{
+    font-family: PingFangSC-Regular;
+    font-size: 0.28rem;
+    color: #333333;
+}
+.personal .confirmChange{
+    width: 6.9rem;
+    height: 0.88rem;
+    margin: 1rem auto 0;
+    line-height: 0.88rem;
+    text-align: center;
+    background: #F2922F;
+    border-radius: 0.08rem;
+    font-family: PingFangSC-Regular;
+    font-size: 0.32rem;
+    color: #FFFFFF;
+}

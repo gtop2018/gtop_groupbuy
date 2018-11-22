@@ -1,0 +1,84 @@
+.gtshopWrap{
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
+.tabCon{
+    flex:1;
+    overflow-y: auto;
+    position: relative;
+}
+.tabfooter {
+    height: .98rem;
+    display: flex;
+    background: #fff;
+    z-index: 50;
+}
+.tabfooter ul{
+    display: flex;
+    flex:1;
+}
+.tabfooter ul li{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.tabfooter ul li .iconTxt{
+    padding-top: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    font-size: .2rem;
+    color: #333333;
+    line-height: .4rem;
+    position: relative;
+}
+.tabfooter ul li .iconTxt .num{
+    position: absolute;
+    min-width: .14rem;
+    height: .3rem;
+    min-height: .3rem;
+    left: 0.45rem;
+    top:0.08rem;
+    background: #F2922F;
+    color: #fff;
+    font-size: .24rem;
+    border-radius: .15rem;
+    line-height: .3rem;
+    text-align: center;
+    padding: 0 0.08rem;
+
+}
+
+.tabfooter ul li .iconTxt .num span{
+    transform: scale(.8,.8);
+    font-size: .24rem;
+    color: #fff;
+
+
+}
+
+.tabfooter ul li .iconTxtCur{
+    color: #F2922F;
+}
+.tabfooter ul li .iconTxt img{
+    width: .44rem;
+    height: .44rem;
+    display: block;
+}
+.navBorder{
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px 0 rgba(0,0,0,0.06);
+}

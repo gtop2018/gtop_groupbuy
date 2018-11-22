@@ -1,0 +1,29 @@
+.gtRadioWrap{
+    width: .8rem;
+    height: .4rem;
+    border: 1px solid #c6c6c6;
+    border-radius: .4rem;
+    position: relative;
+    transition:all .2s;
+
+}
+.gtRadioWrap span{
+    background: #c6c6c6;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    border-radius: .4rem;
+    left:0;
+    top:0;
+    display: block;
+    transition:all .2s;
+    margin:0!important;
+}
+.gtRadioWraptrue{
+    background: #5ADAD0;
+    border: 1px solid #5ADAD0;
+}
+.gtRadioWraptrue span{
+    background: #fff;
+    left:.4rem;
+}

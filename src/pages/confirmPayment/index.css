@@ -1,0 +1,105 @@
+.confirmPayment{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	background-color: #fff;
+}
+.paymentHeader{
+	width: 100%;
+	height: 1.88rem;
+	background: #333;
+	padding-top: 0.3rem;
+}
+.paymenTitle{
+	width: 100%;
+	font-size: 0.28rem;
+	color: #999;
+	text-align: center;
+}
+.paymenPrice{
+	font-size: 0.8rem;
+	color: #fff;
+	text-align: center;
+}
+.paymenYuan{
+	font-size:0.4rem;
+	color: #fff;
+}
+.paymentWayHeader{
+	width: 100%;
+	height: 0.88rem;
+	box-sizing: border-box;
+	padding: 0 0.3rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #EBEBEB;
+}
+.paymenthraderTitle{
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.32rem;
+	color: #333;
+	border-left: 0.04rem solid #5ADAD0;
+	text-indent: 0.1rem;
+}
+.paymentWayKind{
+	width: 100%;
+	height:1.2rem;
+	box-sizing: border-box;
+	padding-left:0.3rem;
+	position: relative;
+}
+.paymentWayKindActive{
+	background: #F8F8F8;
+}
+.paymentWayCart{
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid #EBEBEB;
+	display: flex;
+	align-items: center;
+}
+.payWayLogo{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-right: 0.2rem;
+}
+.payWayCenter{
+	max-width: 6.0rem;
+}
+.paywayName{
+	font-size: 0.28rem;
+	color: #333;
+}
+.paywayQuota{
+	font-size: 0.24rem;
+	color: #999;
+}
+.payRadio{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url(../../images/merimg/Selectedgr2x.png) no-repeat center;
+	background-size: 0.3rem 0.3rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.45rem;
+}
+.displayNone{
+	display: none;
+}
+.paymentWayKind:last-child .paymentWayCart{
+	border-bottom: none;
+}
+.paymentButton{
+	width: 100%;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	text-align: center;
+	background: #F2922F;
+	color: #fff;
+	font-size: 0.32rem;
+	position: fixed;
+	bottom: 0;
+}

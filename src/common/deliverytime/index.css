@@ -1,0 +1,98 @@
+.chose_time_mask .chose_time {
+    height: auto;
+}
+.chose_time_close {
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    top: .24rem;
+    right: .3rem;
+    background-image: url("../../images/关闭@2x.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.chose_time_title {
+    background: #F8F8F8;
+    /*box-shadow: inset 0 -1px 0 0 #EBEBEB;*/
+}
+.choseing_time_area {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+}
+
+.choseing_time_area_date {
+    width: 2.2rem;
+    background: #F8F8F8;
+}
+.choseing_time_area_date li {
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .28rem;
+    color: #666;
+}
+
+.choseing_time_area_clock {
+    flex: 1;
+    padding-left: .3rem;
+    overflow: scroll;
+}
+
+.choseing_time_area_clock li {
+    height: 1rem;
+    line-height: 1rem;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #EBEBEB;
+    font-size: .28rem;
+    color: #666;
+}
+.choseing_time_area_clock .col-f2 {
+    color: #F2922F;
+}
+
+.chose_time_button {
+    width: 100%;
+    height: .88rem;
+    overflow: hidden;
+}
+
+.chose_time_button li {
+    width: 50%;
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    color: #fff;
+    font-size: .32rem;
+    font-family: PingFangSC-Regular;
+    float: left;
+}
+.chose_time_button li:nth-child(1) {
+    background-color: #DDDDDD;
+}
+
+.chose_time_button li:nth-child(2) {
+    background-color: #F2922F;;
+}
+.gtconfirmWraplistbig .gttime .pleaseSelect {
+    background: url(../../images/arrow-r-2x.png) no-repeat right center;
+    background-size: 0.16rem .27rem;
+    padding-right: .3rem;
+    color: #333;
+}
+.gttime.node_border::before{
+    border: none;
+}
+.gttime.borderTop::before{
+    content: "";
+    left: .3rem;
+    right: 0;
+    height: 0;
+    background:#fff;
+    position: absolute;
+    display: block;
+    top: 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-image: url("../../images/border.png") 0 0 2 0 stretch; 
+}

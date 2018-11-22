@@ -1,0 +1,35 @@
+.sendOrderMessage{
+	width: 100%;
+	border-top: 0.2rem solid #f8f8f8;
+	position: relative;
+	margin-top: -1px;
+	padding-top: 0.3rem;
+}
+.sendMessagelist{
+	width: 100%;
+	height: 0.48rem;
+	line-height:0.48rem;
+	display: flex;
+	align-content: center;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	font-size: 0.28rem;
+	color: #555;
+	background-color: #fff;
+}
+.sendMessage_title{
+	color: #999;
+}
+.gtconfirmWrap .waterGtcon:last-child::after{
+	border: none;
+}
+.waterGtconfirm{
+	background-color: #fff;
+}
+.marginL20{
+	display: inline-block;
+	margin-left: 0.2rem;
+}
+.marginB10{
+	margin-bottom: 0.1rem;
+}

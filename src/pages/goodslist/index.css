@@ -1,0 +1,293 @@
+.goodslistWrap{
+    width: 100%;
+    background: #fff;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 0.88rem;
+}
+.index_address{
+    width: 100%;
+    height: .88rem;
+    font-size: .28rem;
+    color: #FFFFFF;
+    flex-shrink: 0;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    padding-right: 0.3rem;
+    padding-left: 0.74rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    background: url(./images/address.png) no-repeat 0.3rem center;
+    background-size: 0.44rem 0.44rem;
+    background-color: #333;
+}
+.index_address img{
+    width: .44rem;
+    height: .44rem;
+    margin: 0 .2rem 0 .3rem;
+}
+.gtlistitem{
+    border-bottom:0.2rem solid #F8F8F8;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+}
+.gtclassfiy .gtmenu{
+    display: flex;
+    height: 1rem;
+    flex-shrink: 0;  
+    padding-bottom: 2px;
+    overflow: hidden; 
+    width: 100%;
+}
+.gtclassfiy .gtmenu .gtitem{
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8F8F8;   
+}
+.gtclassfiy .gtmenu .gtitemselect{  
+    background: #fff;
+    border-bottom: 2px solid #F2922F;
+}
+
+.gtclassfiy .gtmenu .gtitem span{
+    font-size: .28rem;
+    color: #313131;
+}
+
+.gtclassfiy .gtmenu .gtitemselect span{
+    color: #F2922F;
+}
+
+.gtclassfiy .gtlist{
+    flex: 1;
+    padding-bottom: 1.0rem;
+}
+.gtlist_top{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 2.0rem;
+    padding:0  0.3rem 0.2rem 0;
+}
+.gtlist_top .imagewrap{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .26rem;
+    overflow: hidden;
+    margin-top: 0.23rem;
+}
+.gtlist_top .imagewrap img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: .28rem;
+    overflow: hidden;
+}
+.gtitemright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2rem;
+}
+.gtdescribe{
+    flex: 1;
+    position: relative;
+}
+.price_tole{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.32rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    width: 100%;
+}
+.gtdescribe .gtGoodsListTitle{
+    font-size: .28rem;
+    color: #333333;
+    line-height: .34rem;
+    margin-bottom:0.16rem;
+}
+.gtdescribe .gtGoodsListType{
+    font-size: .24rem;
+    color: #999999;
+    line-height: .3rem;
+}
+
+.bigBtnBox{
+    float: right;
+    height: .5rem;
+}
+.gtaddgoodsbtnarea{
+    height: .5rem;
+    line-height: .5rem;
+}
+.gtaddgoodsbtnarea p{
+    font-size: .32rem;
+    color: #333333;
+    font-family: PingFangSC-Regular;
+}
+
+.gtaddgoodsbtnarea p span{
+    font-family: PingFangSC-Regular;
+    font-size: .32rem;
+    color: #333333;
+}
+
+.gtaddgoodsbtn{
+    float: right;
+    width: .5rem;
+    height: .5rem;
+    background:url("../../images/addgreen.png") no-repeat center;
+    background-size: cover;
+}
+.hello{
+    font-size: 0.32rem;
+    color: yellowgreen;
+}
+.gtop_nav{
+    height: 1.8rem;
+    display: flex;
+    border-bottom: 1px solid #f8f8f8;
+}
+.gtop_nav_list{
+    flex: 1;
+    padding-top: 0.3rem;
+}
+.navlist_icon{
+    width: 0.82rem;
+    height: 0.82rem;
+    margin: 0 auto;
+    background: url(images/Group2.png) no-repeat center;
+    background-size: 0.84rem 0.84rem;
+}
+.special_price{
+    background-image: url(images/Group0.png);
+}
+.give_water{
+    background-image: url(images/Group1.png);
+}
+.gtop_nav_list>p{
+    color: #666;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 0.14rem;
+}
+.my-radio .am-radio {
+  padding: 2.5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.layout_gtitem{
+    position: relative;
+    padding-top: 0.2rem;
+}
+.shopcar_oparte{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 0;
+}
+.shopcar_oparte .goodsmount{
+    width: 100%;
+    margin-top: 1.3rem;
+}
+.combolist_bottom{
+    width: 100%;
+    height: 0.88rem;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+}
+.combo_name{
+    width: 0.66rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    background: url(images/Combined.png) no-repeat center;
+    background-size: 0.66rem 0.36rem;
+    color: #fff;
+    font-size: 0.2rem;
+}
+.combo_detailed{
+    flex: 1;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.24rem;
+    color: #999;
+    text-align: left;
+    margin-left: 0.1rem;
+    max-width: 5.39rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+}
+.combo_button{
+    width: 0.75rem;
+    height: 0.88rem;
+    background: url(images/righticon.png) no-repeat center right;
+    background-size: 0.18rem 0.32rem;
+    margin-right: 0.3rem;
+    font-size: 0.24rem;
+    color: #F2922F;
+    line-height: 0.88rem;
+}
+.phoneService{
+    width:0.81rem;
+    height:0.81rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1.95rem;
+    left: 0.3rem;
+    color: #fff;
+    background: url(images/phone.png) no-repeat center;
+    background-size: 0.81rem 0.81rem;
+}
+.gtopnone{
+    display: none;
+}
+.nogoods{
+    width:100%;
+}
+.nogoods img{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.6rem;
+    margin: 0 auto 0.14rem;
+}
+.nogoods p{
+    text-align: center;
+    font-size: 0.28rem;
+    color: #999
+}
+.lazyload-placeholder{
+    height: 1.5rem;
+    background: url(../../images/debulist.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.closeImg.closeImgAttention {
+    width: .4rem;
+    height: 1rem;
+    z-index: 999;
+    position: static;
+    float: right;
+}
+.closeImgAttentionParent{
+    width: 5.4rem;
+    margin-top: -1rem;
+}
+.attention {
+    font-size: .28rem;
+    color: #999999;
+    text-align: center;
+    padding-bottom: .4rem;
+}

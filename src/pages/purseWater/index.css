@@ -1,0 +1,78 @@
+.purse-water-1 {
+    width: 100%;
+    height: 1.88rem;
+    background: #333333;
+}
+
+.purse-water-1-1 {
+    font-size: .28rem;
+    color: #999999;
+    text-align: center;
+    padding-top: .3rem;
+}
+
+.purse-water-1-2 {
+    font-size: .8rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.purse-water-1-2 span:nth-child(1) {
+    font-size: .4rem;
+}
+
+.purse-water-2 {
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 0 0 #EBEBEB;
+    padding: .28rem 0 .28rem .3rem;
+}
+
+.purse-water-2 p {
+    font-size: .32rem;
+    color: #333333;
+    padding-left: .1rem;
+    border-left: .04rem solid #5ADAD0;
+}
+
+.purse-water-3 {
+    background: #fff;
+    width: 100%;
+}
+
+.purse-water-3 li {
+    width: 7.2rem;
+    margin-left: .3rem;
+    height: 1.54rem;
+    box-shadow: inset 0 -1px 0 0 #EBEBEB;
+    overflow: hidden;
+}
+
+.purse-water-3 li div:nth-child(1) {
+    float: left;
+}
+
+.purse-water-3 li div:nth-child(2) {
+    float: right;
+    font-size: .32rem;
+    color: #333333;
+    padding-top: .2rem;
+    padding-right: .3rem;
+}
+
+.purse-water-3-p1 {
+    padding-top: .2rem;
+    padding-bottom: .1rem;
+    font-size: .32rem;
+    color: #333333;
+}
+
+.purse-water-3-p2 {
+    font-size: .28rem;
+    color: #999999;
+}
+
+.purse-water-3-p3 {
+    font-size: .24rem;
+    color: #999999;
+}

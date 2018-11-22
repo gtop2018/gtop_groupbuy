@@ -1,0 +1,75 @@
+.bind-up-phone-head {
+    width: 7.5rem;
+    height: 3.3rem;
+    background: url("../../images/merimg/bindUpPhoneBg.png") 0 0 no-repeat;
+    background-size: 7.5rem 3.3rem;
+}
+.bind-up-phone-body {
+    margin-top: .42rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+.bind-up-phone-img {
+    width: .4rem;
+    height: .4rem;
+    margin-right: 0.25rem;
+}
+.bind-up-phone-body-1, .bind-up-phone-body-2 {
+    width: 6.9rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+.bind-up-phone-body input {
+    width:6.3rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: .3rem;
+    box-sizing: border-box;
+}
+.bind-up-phone-body input::placeholder {
+    color: #C6C6C6;
+}
+.bind-up-phone-body .bind-up-phone-input{
+    width: 4.5rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+.authCode{
+    height: 100%;
+    box-sizing: border-box;
+}
+.verification{
+    width: 1.8rem;
+    height: 0.6rem;
+    border: 1px solid #F2922F;
+    background: #fff;
+    color: #F2922F;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+    border-radius: 0.06rem;
+}
+.notActrive{
+   border-color: #DDDDDD;
+   background: #DDDDDD;
+   color: #fff; 
+}
+.bind-up-phone-body-3{
+    width: 6.9rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    border-radius: 0.08rem;
+    background: #ddd;
+    color: #fff;
+    margin-top: 0.8rem;
+    font-size: 0.32rem;
+}
+.isActiveButton{
+    background: #F2922F;
+}

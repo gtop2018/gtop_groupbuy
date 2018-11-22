@@ -1,0 +1,268 @@
+body {
+    font-size: .28rem;
+}
+.PersonCenterWrap{
+    width:100%;
+    height: 100%;
+    background:#fff;
+    font-size: .28rem;
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-bottom: 1.0rem;
+}
+.UserSetting{
+    height: 1.4rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 .3rem;
+    color: #555;
+    font-size: .28rem;
+    justify-content:space-between;
+}
+.UserSetting .userInfor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userInfor img{
+    width: .8rem;
+    height: .8rem;
+    display: block;
+    border-radius: 100%;
+    margin-right: .2rem;
+}
+
+.setportrait{
+    width: .4rem;
+    height: .4rem;
+    background: url("../../images/setting.png");
+    background-size: cover;
+}
+.gtmb2{
+    border-bottom: .2rem solid #f8f8f8;
+}
+.gtpersoncenterrow{
+    height: 1rem;
+    align-items: center;
+    font-size: .28rem;
+    color: #555;
+    position: relative;
+    background: #fff;
+    display: flex;
+    margin-left: .3rem;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-image: url("../../images/border.png") 0 0 2 0 stretch;
+}
+
+.gtpersoncenterrow::after{
+    position: absolute;
+    left: -.3rem;
+    height: 1rem;
+    content: "";
+    background: #fff;
+    width: .3rem;
+    display: block;
+    border-bottom: .5px solid #fff;
+}
+
+.gtpersoncenterrow::before{
+    content: "";
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    position: absolute;
+    right:.3rem;
+    top:.5rem;
+    transform:rotate(-45deg);
+    height: .2rem;
+    width: .2rem;
+    font-size: .24rem;
+    color: #555;
+}
+.mybookattr{
+    height: 1.63rem;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+}
+.mybookattr img{
+    width: .64rem;
+    height: .64rem;
+    display: block;
+    margin: 0 auto .2rem;
+}
+.mybookattr ul{
+    display: flex;
+    flex: 1;
+}
+.mybookattr ul li{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .24rem;
+}
+.mybookattr ul li p{
+    position: relative;
+}
+.mybookattr ul li p span{
+    position: absolute;
+    min-width: .14rem;
+    min-height: .3rem;
+    left: 0.45rem;
+    top:0;
+    background: #F2922F;
+    color:#fff;
+    font-size: .24rem;
+    border-radius: 0.15rem;
+    line-height: .3rem;
+    text-align: center;
+    padding: 0 0.08rem;
+}
+.gtpersoncenterrowboborder{
+    border-bottom:none;
+    border-image:none;
+}
+.gtpersoncenterspace{
+    justify-content:space-between;
+    padding-right: .3rem;
+}
+.gtpersoncenterspace img{
+    width: .5rem;
+    height: .5rem;
+}
+.gtpersoncenterspace::before{
+    content: "";
+    display: none;
+}
+.gtop_centerlist{
+    line-height: 1rem;
+    background-color: #fff;
+    padding-left:0.3rem;
+    border-bottom: 0.2rem solid #f8f8f8;
+}
+.listbody_gt{
+    display: flex;
+}
+.gtoplist_title{
+    font-size: 0.28rem;
+    color: #333;
+}
+.gtoplist_titleactive{
+    font-size: 0.28rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+    color: #F2922F;
+    background: #FDF4EA;
+    border: 1px solid #F2922F;
+    border-radius: 0.4rem;
+    padding: 0 0.20rem;
+}
+.gtoplist_content{
+    flex: 1;
+    text-align: right;
+    padding-right: 0.38rem;
+    background: url(images/righticon.png) no-repeat center right;
+    background-size: 0.18rem 0.32rem;
+    margin-right: 0.3rem;
+}
+.gt_borbnone{
+    border-bottom: none;
+}
+.gt_borb1{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.water_business{
+    width: 92%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: .4rem;
+}
+.water_business div{
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 0.12rem;
+}
+.water_business_main{
+    width: 100%;
+    height: 2.85rem;
+    padding: 0rem 0.4rem 0rem 0.4rem;
+}
+.water_business_button{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+    color: #333;
+    text-align: center;
+    border-top: 1px solid #EBEBEB;
+    margin-top: .2rem;
+}
+.water_business_title{
+    width: 100%;
+    font-size: 0.32rem;
+    color: #333;
+    text-align: center;
+    height: .9rem;
+    line-height:0.9rem;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-image: url("../../images/border.png") 0 0 2 0 stretch;
+}
+.water_business_list{
+    width: 100%;
+    height: .9rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    line-height:0.9rem;
+    text-align: center;
+}
+.water_business_list:not(:last-child) {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-image: url("../../images/border.png") 0 0 2 0 stretch;
+}
+.water_business{
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+.height100{
+    height: 1rem;
+}
+.electitle{
+    height: 1rem;
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+}
+.titleactive_content{
+    flex: 1;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: yellowgreen;
+    text-align: right;
+    padding-right: 0.38rem;
+    color: #999999;
+    background: url(images/righticon.png) no-repeat center right;
+    background-size: 0.18rem 0.32rem;
+    margin-right: 0.3rem;
+}
+.closeImg{
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.3rem;
+    z-index: 100;
+}
+.basicInfo-phone {
+    line-height: .42rem;
+}

@@ -1,0 +1,13 @@
+项目名称：gtop_member(会员微信公众号)
+
+创 建 人：jiangyuhuan
+
+创建时间：2018年10月22号
+
+目前版本：0.0
+
+svn地 址：https://192.168.40.253:444/svn/projects/qd/gt_water/trunk/gtop-member
+
+前端框架：react
+
+项目描述：创建会员微信公众号项目。
